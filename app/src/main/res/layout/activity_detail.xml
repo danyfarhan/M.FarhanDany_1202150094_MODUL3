@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mfarhandany_1202150094_modul3.DetailActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewdetail"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/aqua" />
+
+            <TextView
+                android:id="@+id/textView_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Aqua"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView_pMinum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="10dp"
+                android:text="Aqua adalah sebuah merk air mineral" />
+
+
+            <ImageView
+                android:id="@+id/battray"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/list"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="120dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="70dp"
+                android:text="+"
+                />
+            <TextView
+                android:id="@+id/TextViewjumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1L"
+                android:textSize="30dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="180dp"/>
+
+            <Button
+                android:id="@+id/btnminus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/battray"
+                android:layout_marginLeft="230dp"
+                android:text="-"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
